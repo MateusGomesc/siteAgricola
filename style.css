@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500&family=Kanit:wght@100;300;400;500;600;800&display=swap');
+
+:root{
+    --cor-primaria: #002255;
+    --cor-secundaria: #ffff00;
+    --cor-tercearia: #5aa02c;
+}
+
+/*Classes*/
+.logoHeader{
+    height: 90px;
+    margin-right: 70%;
+}
+
+.iconHeader{
+    color: var(--cor-primaria);
+}
+
+.iconNav{
+    color: #fff;
+}
+
+.navBar{
+    background-color: var(--cor-primaria);
+}
+
+.navContent{
+    padding-left: 24%;
+}

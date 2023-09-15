@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIkit</title>
+    <!--Arquivos CSS UIkit-->
+    <link rel="stylesheet" href="./css/uikit.min.css">
+    <link rel="stylesheet" href="./css/uikit.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="uk-width-1-1 uk-padding-small uk-text-center">
+        <img src="./img/logo.svg" alt="Logo Sj agrotech" class="logoHeader">
+
+        <a href="#" class="uk-link-muted"><span uk-icon="icon: facebook" class="iconHeader"></span></a>
+        <a href="#" class="uk-link-muted"><span uk-icon="icon: instagram" class="iconHeader"></span></a>
+        <a href="#" class="uk-link-muted"><span uk-icon="icon: youtube" class="iconHeader"></span></a>
+    </header>
+
+    <!--Navbar-->
+    <nav class="uk-navbar-container">
+        <div class="navBar uk-container uk-width-1-1 uk-text-center">
+            <div uk-navbar>
+                <ul class="navContent uk-navbar-nav">
+                    <li class="uk-item"><a href="./index.html" class="uk-link-muted"><span uk-icon="icon: home" class="iconNav"></span></a></li>
+                    <li class="uk-item"><a href="#" class="uk-link-muted">Sobre Nós</a></li>
+                    <li class="uk-item"><a href="#" class="uk-link-muted">Sustentabilidade</a></li>
+                    <li class="uk-item"><a href="#" class="uk-link-muted">Produtos</a></li>
+                    <li class="uk-item"><a href="#" class="uk-link-muted">Equipe Técnica</a></li>
+                    <li class="uk-item"><a href="#" class="uk-link-muted">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Slider-->
+    <div uk-slideshow="autoplay: true">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="" alt="">
+            </li>
+            <li>
+                <img src="" alt="">
+            </li>
+            <li>
+                <img src="" alt="">
+            </li>
+        </ul>
+
+        <a href="#" uk-slideshow-items="previous"></a>
+        <a href="#" uk-slideshow-items="next"></a>
+    </div>
+
+    <!--Arquivos js UIkti-->
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/uikit-icons.min.js"></script>
+</body>
+</html>
