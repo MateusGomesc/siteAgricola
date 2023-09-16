@@ -6,6 +6,15 @@
     --cor-tercearia: #5aa02c;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #002255;
+}
+
 /*Classes*/
 .logoHeader{
     height: 90px;
@@ -26,4 +35,40 @@
 
 .navContent{
     padding-left: 24%;
+}
+
+.imgCarrossel{
+    height: 65%;
+    width: 100%;
+}
+
+.tituloSlide{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    color: var(--cor-secundaria);
+}
+
+.paragrafoSlide{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.textoSlide{
+    margin-bottom: 100px;
+    color: var(--cor-secundaria);
+}
+
+.iconFooter{
+    color: #fff;
+}
+
+.informacoesFooter{
+    background-color: var(--cor-secundaria);
+    height: 30px;
+}
+
+.textoFooter{
+    color: var(--cor-primaria);
+    font-family: 'Kanit', sans-serif;
 }

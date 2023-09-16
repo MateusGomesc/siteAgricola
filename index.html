@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UIkit</title>
+    <title>Home</title>
+    <link rel="shortcut icon" href="./img/engrenagem.svg" type="image/x-icon">
     <!--Arquivos CSS UIkit-->
     <link rel="stylesheet" href="./css/uikit.min.css">
     <link rel="stylesheet" href="./css/uikit.css">
@@ -37,21 +38,59 @@
     </nav>
 
     <!--Slider-->
-    <div uk-slideshow="autoplay: true">
+    <div class="uk-position-relative uk-visible-toggle uk-light uk-height-large uk-width-1-1" uk-slideshow="autoplay: true; animation: push">
         <ul class="uk-slideshow-items">
             <li>
-                <img src="" alt="">
+                <img src="./img/carrossel1.jpg" alt="Imagem 1 Carrossel" class="uk-height-large uk-width-1-1">
+                <div class="textoSlide uk-position-bottom uk-position-medium uk-text-center uk-light uk-height-large uk-width-1-1">
+                    <h3 class="tituloSlide uk-margin-remove uk-width-1-1">Sustentabilidade</h3>
+                    <p class="paragrafoSlide uk-margin-remove uk-width-1-1">Uma empresa que respeita a natureza</p>
+                </div>
             </li>
             <li>
-                <img src="" alt="">
+                <img src="./img/carrossel2.jpg" alt="Imagem 2 Carrossel" class="uk-height-large uk-width-1-1">
+                <div class="textoSlide uk-position-bottom uk-position-medium uk-text-center uk-light uk-height-large uk-width-1-1">
+                    <h3 class="tituloSlide uk-margin-remove uk-width-1-1">Confiança</h3>
+                    <p class="paragrafoSlide uk-margin-remove uk-width-1-1">Mais de 90 anos de mercado</p>
+                </div>
             </li>
             <li>
-                <img src="" alt="">
+                <img src="./img/carrossel3.jpg" alt="Imagem 3 Carrossel" class="uk-height-large uk-width-1-1">
+                <div class="textoSlide uk-position-bottom uk-position-medium uk-text-center uk-light uk-height-large uk-width-1-1">
+                    <h3 class="tituloSlide uk-margin-remove uk-width-1-1">Comunicação</h3>
+                    <p class="paragrafoSlide uk-margin-remove uk-width-1-1">Consulte nossos portais de serviço ao cliente</p>
+                </div>
             </li>
         </ul>
 
-        <a href="#" uk-slideshow-items="previous"></a>
-        <a href="#" uk-slideshow-items="next"></a>
+        <div class="uk-light">
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="uk-margin-medium-top">
+        <div class="uk-container uk-flex">
+            <div class="uk-container uk-padding-small uk-margin-remove-left">
+                <ul class="uk-list uk-link-text">
+                    <li><a href="#">Sustentabilidade</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Atendimento</a></li>
+                </ul>
+            </div>
+
+            <div class="uk-margin-large-top">
+                <a href="#" class="uk-link-muted"><span uk-icon="icon: facebook" class="iconFooter"></span></a>
+                <a href="#" class="uk-link-muted"><span uk-icon="icon: instagram" class="iconFooter"></span></a>
+                <a href="#" class="uk-link-muted"><span uk-icon="icon: youtube" class="iconFooter"></span></a>
+            </div>
+        </div>
+    </footer>
+    <div class="informacoesFooter uk-container uk-width-1-1 uk-flex uk-height-small">
+        <p class="textoFooter uk-margin-large-right">Telefones: (34) 9 9999-9999</p>
+        <p class="textoFooter uk-margin-remove">Endereço: Rua Guimarânia 98</p>
     </div>
 
     <!--Arquivos js UIkti-->
