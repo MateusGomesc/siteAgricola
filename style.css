@@ -72,3 +72,11 @@ footer{
     color: var(--cor-primaria);
     font-family: 'Kanit', sans-serif;
 }
+
+.imgProdutos{
+    height: auto;
+}
+
+.cardProdutos{
+    border-radius: 10px;
+}
