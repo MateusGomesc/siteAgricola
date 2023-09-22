@@ -15,6 +15,14 @@ footer{
     background-color: #002255;
 }
 
+header{
+    background-color: #fff;
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
 /*Classes*/
 .logoHeader{
     height: 90px;
@@ -75,8 +83,56 @@ footer{
 
 .imgProdutos{
     height: auto;
+    border-radius: 10px;
+}
+
+.imgNoticia{
+    height: auto;
+    border-radius: 10px;
+    height: 30%; 
+    width: 100%;
+}
+
+.tituloProdutos{
+    font-family: 'Kanit', sans-serif;
+}
+
+.descricaoProdutos{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.botaoProdutos, .botaoNoticias{
+    font-family: 'Kanit', sans-serif;
+    border-top: 1px solid var(--cor-tercearia);
+    font-weight: 500;
+    color: var(--cor-tercearia);
 }
 
 .cardProdutos{
     border-radius: 10px;
+    box-shadow: 24px 24px 49px #bebebe,
+             -24px -24px 49px #ffffff;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    height: 530px;
+}
+
+.cardNoticias{
+    border-radius: 10px;
+    box-shadow: 24px 24px 49px #bebebe,
+             -24px -24px 49px #ffffff;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 30%;
+    height: 450px;  
+}
+
+.tituloLinha, .tituloNoticias, .tituloNoticia, .botaoNoticias{
+    font-family: 'Kanit', sans-serif;
+}
+
+.grifarTexto{
+    color: var(--cor-tercearia);
 }
