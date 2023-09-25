@@ -1,7 +1,7 @@
 //Função que recebe os dados da API
 const getWeatherData = async (lat, lon, key) => {
     //URL da api
-    const apiWeatherURL = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&lang=pt_br&units=metric`
+    const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&lang=pt_br&units=metric`
     
     //Requisição http
     const resultado = await fetch(apiWeatherURL)
