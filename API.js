@@ -32,7 +32,7 @@ function getPositionSucess(position){
         let msg = document.getElementById('msg')
 
         //muda conteúdo
-        icon.setAttribute('src', `http://openweathermap.org/img/wn/${dados.weather[0].icon}.png`)
+        icon.setAttribute('src', `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`)
         temperatura.innerHTML = `${parseInt(dados.main.temp)} °C`
         cidade.innerHTML = dados.name
         sensacaoTermica.innerHTML = `Sensação Térmica: ${parseInt(dados.main.feels_like)} °C`
