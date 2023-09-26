@@ -10,5 +10,5 @@ Homepage feita para empresa ficticia "SJAGROTECH" para fins acadêmicos.
 ## 🔧Tecnologias utilizadas
 <ul>
   <li>Framework UIKit <img src="https://github.com/MateusGomesc/siteAgricola/assets/129867943/781b99c4-4714-4bdb-8c3e-aba2c1c4c8c3" width="12px" height="12px"></li>
-  <li>API Current Weather Data.</li>
+  <li>API Current Weather Data <img src=""></li>
 </ul>
