@@ -59,7 +59,7 @@ body{
 }
 
 .navContent{
-    padding-left: 24%;
+    padding-left: 28%;
 }
 
 .imgCarrossel{
@@ -80,7 +80,7 @@ body{
 }
 
 .textoSlide{
-    margin-bottom: 25%;
+    margin-bottom: 12%;
     color: var(--cor-secundaria);
 }
 
