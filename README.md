@@ -9,6 +9,6 @@ Homepage feita para empresa ficticia "SJAGROTECH" para fins acadêmicos.
 
 ## 🔧Tecnologias utilizadas
 <ul>
-  <li>Framework UIKit</li>
-  <li>API Current Weather Data</li>
+  <li>Framework UIKit;</li>
+  <li>API Current Weather Data.</li>
 </ul>
