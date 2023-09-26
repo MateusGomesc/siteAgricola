@@ -5,7 +5,7 @@
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![UIKIT](https://img.shields.io/badge/uikit-1572B6?style=for-the-badge&logo=uikit&logoColor=white)
 
-Homepage feita para empresa ficticia "SJAGROTECH" para fins acadêmicos.
+Homepage feita para empresa fictícia "SJAGROTECH" para fins acadêmicos.
 
 ## 🔧Tecnologias utilizadas
 <ul>
